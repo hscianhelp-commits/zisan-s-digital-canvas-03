@@ -1,14 +1,3 @@
-// ============================================
-// PORTFOLIO DATA FILE
-// ============================================
-// All portfolio content is centralized here for easy editing.
-// Simply modify the values below to update your portfolio.
-// No need to touch any component files.
-// ============================================
-
-// ============================================
-// SECTION 1: PROFILE INFORMATION
-// ============================================
 export const portfolioData = {
   profile: {
     name: "Md Ridoan Mahmud Zisan",
@@ -28,9 +17,6 @@ export const portfolioData = {
     resumeLink: "/Resume.pdf",
   },
 
-  // ============================================
-  // SECTION 2: EDUCATION
-  // ============================================
   education: {
     hsc: {
       degree: "Higher Secondary Certificate (HSC)",
@@ -58,9 +44,6 @@ export const portfolioData = {
     },
   },
 
-  // ============================================
-  // SECTION 3: PROFESSIONAL DEVELOPMENT - COURSES
-  // ============================================
   courses: [
     {
       id: 1,
@@ -144,9 +127,6 @@ export const portfolioData = {
     },
   ],
 
-  // ============================================
-  // SECTION 4: PROFESSIONAL DEVELOPMENT - OLYMPIADS
-  // ============================================
   olympiads: [
     {
       id: 1,
@@ -180,9 +160,6 @@ export const portfolioData = {
     },
   ],
 
-  // ============================================
-  // SECTION 5: EXPERIENCE
-  // ============================================
   experience: [
     {
       id: 1,
@@ -228,9 +205,7 @@ export const portfolioData = {
     },
   ],
 
-  // ============================================
-  // SECTION 6: CONTRIBUTION DATA (for GitHub-style chart)
-  // ============================================
+  // Contribution data for GitHub-style chart
   contributionData: {
     2024: [
       { month: 'Jan', contributions: 45 },
@@ -251,9 +226,6 @@ export const portfolioData = {
     ],
   },
 
-  // ============================================
-  // SECTION 7: CERTIFICATES
-  // ============================================
   certificates: [
     { id: 1, name: "Google IT Support", nameBn: "গুগল আইটি সাপোর্ট", verifyLink: "https://i.postimg.cc/SRk6P0YS/Google-IT-Support.png", image: "https://i.postimg.cc/SRk6P0YS/Google-IT-Support.png" },
     { id: 2, name: "Foundations of Cybersecurity", nameBn: "সাইবার সিকিউরিটির মূল ভিত্তি", verifyLink: "https://i.postimg.cc/nhk0pcgv/Foundations-of-Cyber-Security.png", image: "https://i.postimg.cc/nhk0pcgv/Foundations-of-Cyber-Security.png" },
@@ -272,9 +244,6 @@ export const portfolioData = {
     { id: 15, name: "UN Climate Change Process", nameBn: "জাতিসংঘ জলবায়ু পরিবর্তন প্রক্রিয়া", verifyLink: "https://i.postimg.cc/zv4DDZRL/The-UN-Climate-Change-process.jpg", image: "https://i.postimg.cc/zv4DDZRL/The-UN-Climate-Change-process.jpg" },
   ],
 
-  // ============================================
-  // SECTION 8: SKILLS
-  // ============================================
   skills: {
     language: [
       { name: "Bengali", nameBn: "বাংলা", level: 100, note: "Fluent", noteBn: "সাবলীল" },
@@ -309,13 +278,10 @@ export const portfolioData = {
     ],
   },
 
-  // ============================================
-  // SECTION 9: FAMILY & PERSONAL INFO
-  // ============================================
   family: {
-    father: { relation: "Father", relationBn: "পিতা", name: "Md Rokibul Hasan Shekh", nameBn: "মোঃ রকিবুল হাসান শেখ" },
-    mother: { relation: "Mother", relationBn: "মাতা", name: "Mst. Zosna Khatun", nameBn: "মোছাঃ জোসনা খাতুন" },
-    siblings: { relation: "Younger Sister", relationBn: "ছোট বোন", name: "Raisa Jannat", nameBn: "রাইসা জান্নাত" },
+    father: { relation: "Father", relationBn: "পিতা", name: "Md Rokibul Hasan Shekh", nameBn: "মোঃ রকিবুল হাসান শেখ"},
+    mother: { relation: "Mother", relationBn: "মাতা", name: "Mst. Zosna Khatun", nameBn: "মোছাঃ জোসনা খাতুন"},
+    siblings: { relation: "Younger Sister", relationBn: "ছোট বোন", name: "Raisa Jannat", nameBn: "রাইসা জান্নাত"},
   },
 
   personal: {
@@ -330,9 +296,6 @@ export const portfolioData = {
     hobbiesBn: ["কোডিং", "ওয়েব ডেভেলপমেন্ট", "সমস্যা সমাধান", "পড়া"],
   },
 
-  // ============================================
-  // SECTION 10: SOCIAL LINKS
-  // ============================================
   social: {
     google: "https://www.google.com/search?q=Md+Ridoan+Mahmud+Zisan",
     linkedin: "https://www.linkedin.com/in/ridoan-zisan",
@@ -344,9 +307,6 @@ export const portfolioData = {
     whatsapp: "https://wa.me/8801712525910",
   },
 
-  // ============================================
-  // SECTION 11: PROJECTS
-  // ============================================
   projects: [
     { id: 1, name: "BOBDO", description: "Online Blood Donation Platform", descriptionBn: "অনলাইন রক্তদান প্ল্যাটফর্ম", details: "Serving 68k+ community members with 40% reduced response time", link: "https://bobdo.vercel.app", image: "https://i.postimg.cc/FH2r1Q8D/bobdo-removebg-preview.png" },
     { id: 2, name: "YouthHopeBD", description: "Youth Development Platform", descriptionBn: "যুব উন্নয়ন প্ল্যাটফর্ম", details: "Platform for youth development and social services", link: "https://youthhope-bd.netlify.app", image: "https://i.postimg.cc/rskLpzPD/IMG-20250916-021919.jpg" },
@@ -361,9 +321,6 @@ export const portfolioData = {
   ],
 };
 
-// ============================================
-// SECTION 12: BLOG POSTS
-// ============================================
 export const blogPosts = [
   {
     id: 1,
@@ -523,9 +480,6 @@ export const blogPosts = [
   },
 ];
 
-// ============================================
-// SECTION 13: RESEARCH PAPERS
-// ============================================
 export const researchPapers = [
   {
     id: 1,
@@ -554,9 +508,6 @@ export const researchPapers = [
   },
 ];
 
-// ============================================
-// SECTION 14: CHATBOT RESPONSES
-// ============================================
 export const chatbotResponses: Record<string, { en: string; bn: string }> = {
   greeting: {
     en: "Hello! I'm Zisan's virtual assistant. I can help you learn about his education, skills, experience, projects, and more. What would you like to know?",
@@ -589,209 +540,5 @@ export const chatbotResponses: Record<string, { en: string; bn: string }> = {
   default: {
     en: "I'm not sure about that specific question, but I can tell you about Zisan's education, skills, experience, projects, research, or contact information. What would you like to know?",
     bn: "আমি সেই নির্দিষ্ট প্রশ্ন সম্পর্কে নিশ্চিত নই, তবে আমি আপনাকে জিসানের শিক্ষা, দক্ষতা, অভিজ্ঞতা, প্রকল্প, গবেষণা বা যোগাযোগের তথ্য সম্পর্কে বলতে পারি।",
-  },
-};
-
-// ============================================
-// SECTION 15: UI TRANSLATIONS
-// ============================================
-export const translations = {
-  en: {
-    nav: {
-      profile: "Profile",
-      education: "Education",
-      professionalDev: "Professional Development",
-      experience: "Experience",
-      certificates: "Certificates",
-      skills: "Skills",
-      family: "Family",
-      contact: "Contact",
-      blog: "Blog",
-      research: "Research",
-    },
-    profile: {
-      name: "Md Ridoan Mahmud Zisan",
-      title: "Self-Driven Web Developer & IT Specialist",
-      description: "I create smart digital solutions that simplify work and empower communities. As a self-driven Web Developer & IT Specialist behind projects like BOBDO, HSCian, YouthHopeBD, and ZupraMart, I combine technical expertise, leadership, and innovation to drive positive change.",
-      downloadResume: "Download Resume",
-      viewCertifications: "Certifications",
-      viewResearch: "Research",
-      viewBlog: "Blog",
-    },
-    education: {
-      title: "Education",
-      hsc: {
-        title: "Higher Secondary Certificate (HSC)",
-        session: "Session: 2023-2024",
-        institute: "KARATOA MULTIMEDIA SCHOOL AND COLLEGE",
-        gpa: "GPA: 4.25/5.00",
-        group: "Group: Science",
-        major: "Major: Higher Math",
-      },
-      ssc: {
-        title: "Secondary School Certificate (SSC)",
-        session: "Session: 2021-2022",
-        institute: "DHUNAT GOVT N.U. PILOT MODEL HIGH SCHOOL",
-        gpa: "GPA: 5.00/5.00",
-        group: "Group: Science",
-        major: "Major: Higher Math",
-      },
-    },
-    professionalDev: {
-      title: "Professional Development",
-      courses: "Courses",
-      olympiads: "Olympiads",
-      graph: "Development Graph",
-    },
-    experience: {
-      title: "Experience",
-    },
-    certificates: {
-      title: "Certificates",
-      verify: "Verify",
-    },
-    skills: {
-      title: "Skills",
-      language: "Language Skills",
-      professional: "Professional Skills",
-      communication: "Communication Skills",
-      additional: "Additional Skills",
-    },
-    family: {
-      title: "Family & Personal Info",
-      familyInfo: "Family Information",
-      personalInfo: "Personal Information",
-    },
-    contact: {
-      title: "Contact Me",
-      name: "Your Name",
-      subject: "Subject",
-      message: "Message",
-      send: "Send Message",
-      socialLinks: "Social Links",
-    },
-    footer: {
-      subscribe: "Subscribe to Newsletter",
-      emailPlaceholder: "Enter your email",
-      subscribeBtn: "Subscribe",
-      copyright: "© 2024 Md Ridoan Mahmud Zisan. All rights reserved.",
-    },
-    blog: {
-      title: "Blog",
-      subtitle: "Web Development Projects & Insights",
-      filter: "Filter by Category",
-      all: "All",
-    },
-    research: {
-      title: "Research",
-      subtitle: "Academic Research Papers",
-    },
-    chatbot: {
-      title: "Chat with Zisan's Assistant",
-      placeholder: "Ask me anything about Zisan...",
-      greeting: "Hello! I'm Zisan's virtual assistant. How can I help you today?",
-    },
-    security: {
-      copyProhibited: "Copying is prohibited",
-    },
-  },
-  bn: {
-    nav: {
-      profile: "প্রোফাইল",
-      education: "শিক্ষা",
-      professionalDev: "পেশাগত উন্নয়ন",
-      experience: "অভিজ্ঞতা",
-      certificates: "সনদপত্র",
-      skills: "দক্ষতা",
-      family: "পরিবার",
-      contact: "যোগাযোগ",
-      blog: "ব্লগ",
-      research: "গবেষণা",
-    },
-    profile: {
-      name: "মোঃ রিদোয়ান মাহমুদ জিসান",
-      title: "স্ব-চালিত ওয়েব ডেভেলপার ও আইটি বিশেষজ্ঞ",
-      description: "আমি স্মার্ট ডিজিটাল সমাধান তৈরি করি যা কাজ সহজ করে এবং সম্প্রদায়কে ক্ষমতায়িত করে। BOBDO, HSCian, YouthHopeBD এবং ZupraMart-এর মতো প্রকল্পের পেছনে একজন স্ব-চালিত ওয়েব ডেভেলপার ও আইটি বিশেষজ্ঞ হিসেবে, আমি প্রযুক্তিগত দক্ষতা, নেতৃত্ব এবং উদ্ভাবনকে একত্রিত করে ইতিবাচক পরিবর্তন আনি।",
-      downloadResume: "জীবনবৃত্তান্ত ডাউনলোড",
-      viewCertifications: "সনদপত্র",
-      viewResearch: "গবেষণা",
-      viewBlog: "ব্লগ",
-    },
-    education: {
-      title: "শিক্ষা",
-      hsc: {
-        title: "উচ্চ মাধ্যমিক সার্টিফিকেট (এইচএসসি)",
-        session: "সেশন: ২০২৩-২০২৪",
-        institute: "কারাতোয়া মাল্টিমিডিয়া স্কুল অ্যান্ড কলেজ",
-        gpa: "জিপিএ: ৪.২৫/৫.০০",
-        group: "বিভাগ: বিজ্ঞান",
-        major: "মেজর: উচ্চতর গণিত",
-      },
-      ssc: {
-        title: "মাধ্যমিক স্কুল সার্টিফিকেট (এসএসসি)",
-        session: "সেশন: ২০২১-২০২২",
-        institute: "ধুনট সরকারি এন.ইউ. পাইলট মডেল হাই স্কুল",
-        gpa: "জিপিএ: ৫.০০/৫.০০",
-        group: "বিভাগ: বিজ্ঞান",
-        major: "মেজর: উচ্চতর গণিত",
-      },
-    },
-    professionalDev: {
-      title: "পেশাগত উন্নয়ন",
-      courses: "কোর্স",
-      olympiads: "অলিম্পিয়াড",
-      graph: "উন্নয়ন গ্রাফ",
-    },
-    experience: {
-      title: "অভিজ্ঞতা",
-    },
-    certificates: {
-      title: "সনদপত্র",
-      verify: "যাচাই করুন",
-    },
-    skills: {
-      title: "দক্ষতা",
-      language: "ভাষা দক্ষতা",
-      professional: "পেশাগত দক্ষতা",
-      communication: "যোগাযোগ দক্ষতা",
-      additional: "অতিরিক্ত দক্ষতা",
-    },
-    family: {
-      title: "পরিবার ও ব্যক্তিগত তথ্য",
-      familyInfo: "পারিবারিক তথ্য",
-      personalInfo: "ব্যক্তিগত তথ্য",
-    },
-    contact: {
-      title: "যোগাযোগ করুন",
-      name: "আপনার নাম",
-      subject: "বিষয়",
-      message: "বার্তা",
-      send: "বার্তা পাঠান",
-      socialLinks: "সামাজিক লিঙ্ক",
-    },
-    footer: {
-      subscribe: "নিউজলেটার সাবস্ক্রাইব করুন",
-      emailPlaceholder: "আপনার ইমেইল লিখুন",
-      subscribeBtn: "সাবস্ক্রাইব",
-      copyright: "© ২০২৪ মোঃ রিদোয়ান মাহমুদ জিসান। সর্বস্বত্ব সংরক্ষিত।",
-    },
-    blog: {
-      title: "ব্লগ",
-      subtitle: "ওয়েব ডেভেলপমেন্ট প্রকল্প ও অন্তর্দৃষ্টি",
-      filter: "বিভাগ অনুসারে ফিল্টার করুন",
-      all: "সব",
-    },
-    research: {
-      title: "গবেষণা",
-      subtitle: "একাডেমিক গবেষণাপত্র",
-    },
-    chatbot: {
-      title: "জিসানের সহকারীর সাথে চ্যাট করুন",
-      placeholder: "জিসান সম্পর্কে কিছু জিজ্ঞাসা করুন...",
-      greeting: "হ্যালো! আমি জিসানের ভার্চুয়াল সহকারী। আজ আপনাকে কীভাবে সাহায্য করতে পারি?",
-    },
-    security: {
-      copyProhibited: "কপি করা নিষিদ্ধ",
-    },
   },
 };
